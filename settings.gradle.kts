@@ -21,4 +21,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "CPBase"
 include(":app")
- 
+include(":cpbase")
+include(":cpcomm")

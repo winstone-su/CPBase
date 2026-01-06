@@ -28,3 +28,6 @@ AAR files in `lib/` directory:
 - `cpsdk.cpcomm.v1.0.2.9.aar`
 
 These are intended to be published to JitPack for remote dependency usage.
+
+## Language
+中文回复

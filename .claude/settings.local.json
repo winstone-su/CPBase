@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(./gradlew --version)",
+      "Bash(./gradlew :cpbase:assemble :cpcomm:assemble --stacktrace)",
+      "Bash(./gradlew :cpbase:publishToMavenLocal :cpcomm:publishToMavenLocal --stacktrace)",
+      "Bash(git checkout -- lib/)",
+      "Bash(copy \"lib\\\\cpsdk.cpbase.v1.0.0.aar\" \"cpbase\\\\libs\"\" && copy \"libcpsdk.cpcomm.v1.0.2.9.aar\" \"cpcommlibs\"\")"
+    ]
+  }
+}
